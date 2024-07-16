@@ -1,0 +1,10 @@
+#data
+genetic
+yonsei_data
+
+#Weights&Metrics
+weights
+metrics
+
+#other files
+genetic.ipynb
