@@ -1,1 +1,0 @@
-{"0": "warehouse", "1": "cafe", "2": "classroom"}

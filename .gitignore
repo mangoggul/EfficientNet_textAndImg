@@ -1,10 +1,17 @@
 #data
-genetic
-yonsei_data
+Cycle_data
+Cycle_data_split
+infe_images
+test_data
+육묘이미지들
 
 #Weights&Metrics
 weights
 metrics
 
+#py files
+docker_test.py
+claude_effnet.py
 #other files
 genetic.ipynb
+__pycache__
