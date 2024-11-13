@@ -21,7 +21,7 @@ This method offers flexibility to merge modalities at a desired depth of the mod
 
     
 ```
-git clone https://github.com/mangoggul/multi-modal-classification.git
+git clone https://github.com/mangoggul/EfficientNet_textAndImg.git
 ```
 
 ### 2. You need to download Dataset / Dataset is organized as follows
