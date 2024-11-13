@@ -28,26 +28,28 @@ git clone https://github.com/mangoggul/EfficientNet_textAndImg.git
 
 #### Dataset Tree
 
+if I want to classify Ca1 and Ca2
+
 ```bash
 #data_dir/
 #│
 #├── train/
-#│   ├── rgb/안에 ca1 ca2 폴더
-#│   │   ├── 이미지 파일들 (예: img1.jpg, img2.jpg, ...)
-#│   └── labels/안에 ca1 ca2 폴더
-#│       ├── 라벨 파일들 (예: img1.json, img2.json, ...)
+#│   ├── rgb/ ca1 ca2 folder
+#│   │   ├── Image Files (EX: img1.jpg, img2.jpg, ...)
+#│   └── labels/ ca1 ca2 folder
+#│       ├── Labels (EX: img1.json, img2.json, ...)
 #│
 #├── val/
-#│   ├── rgb/안에 ca1 ca2 폴더
-#│   │   ├── 이미지 파일들 (예: img1.jpg, img2.jpg, ...)
-#│   └── labels/안에 ca1 ca2 폴더
-#│       ├── 라벨 파일들 (예: img1.json, img2.json, ...)
+#│   ├── rgb/ ca1 ca2 folder
+#│   │   ├── Image Files (EX: img1.jpg, img2.jpg, ...)
+#│   └── labels/ ca1 ca2 folder
+#│       ├── Labels (EX: img1.json, img2.json, ...)
 #│
 #└── test/
-#    ├── rgb/안에 ca1 ca2 폴더
-#    │   ├── 이미지 파일들 (예: img1.jpg, img2.jpg, ...)
-#    └── labels/안에 ca1 ca2 폴더
-#        ├── 라벨 파일들 (예: img1.json, img2.json, ...)
+#    ├── rgb/ ca1 ca2 folder
+#    │   ├── Image Files (EX: img1.jpg, img2.jpg, ...)
+#    └── labels/ ca1 ca2 folder
+#        ├── Labels (EX: img1.json, img2.json, ...)
  
 ``` 
 
@@ -57,13 +59,13 @@ git clone https://github.com/mangoggul/EfficientNet_textAndImg.git
 ### 3. Start Training
 type this python command
 <br/>
-if you want single modal rgb image
+if you want single modal rgb image Training
 ```
-python single_modal_train.py
+python training/single_modal_train.py
 ```
-if you want multi modal image
+if you want multi modal image and text Training
 ```
-python multi_modal_train.py
+python training/multi_modal_textRGB.py
 ```
 
 
@@ -76,17 +78,5 @@ After Training you can use inference.ipynb file.
 Furthermore, metrics
 
 ![image](https://github.com/user-attachments/assets/f00f8fec-b42f-45c1-a16f-9965652c0d12)
-
-### 5. Compare with Single Modal & Multi Modal
-
-
-|  | SingleModal (Rgb)| MultiModal (Rgb And Depth) |
-| --- | --- | --- |
-| Accuracy | 0.94444 | 0.96296 |
-| Precision | 0.95370 | 0.96732 |
-| Recall | 0.94444 | 0.96296 |
-| F1 Score | 0.94445 | 0.96309 |
-
-**100 epoch Trained**
 
 
