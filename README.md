@@ -73,10 +73,11 @@ python training/multi_modal_textRGB.py
 ### 4. Inference 
 After Training you can use inference.ipynb file. 
 
-![image](https://github.com/user-attachments/assets/da8e245f-86ff-4130-9183-f14ba6cf3c5f)
+![image](https://github.com/user-attachments/assets/60c62ad5-5dba-444d-afb0-575dfae45a29)
 
 Furthermore, metrics
 
-![image](https://github.com/user-attachments/assets/f00f8fec-b42f-45c1-a16f-9965652c0d12)
+![image](https://github.com/user-attachments/assets/367bba2e-3b98-4289-aac0-e1ca301f7ae1)
+
 
 
